@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>Test javascripts</title>
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+  			$("button").click(function(){
+    			$("p").hide();
+  			});
+
+  			$("button").mouseenter(function(){
+  				$("p").hide();
+  			});
+
+  			$("button").mouseleave(function(){
+  				$("p").show();
+  			});
+		});
+</script>
+<body>
+
+<p>show / hide element</p>
+<button>clickme</button>
+
+</body>
+</html>
